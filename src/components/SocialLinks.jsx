@@ -68,7 +68,7 @@ export default function SocialLinks(){
     return(
         <div>
             <ul className="flex items-center justify-around w-screen h-20 fixed -bottom-4
-                            md:absolute md:top-[45%] md:left-0 md:flex md:flex-col md:items-start">
+                             md:top-[45%] md:left-0 md:flex md:flex-col md:items-start">
                 { linkList }
             </ul>
         </div>
