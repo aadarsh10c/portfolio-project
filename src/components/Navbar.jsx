@@ -29,7 +29,7 @@ export default function Navbar(){
     const [ nav , setNav ] = useState( false )
 
     const navList = links.map ( ({ id , link }) => {
-       return  <li className="px-2 cursor-pointer hover:scale-110 duration-200" 
+       return  <li className="px-2 md:text-2xl cursor-pointer hover:scale-110 duration-200" 
        key={id}>{link}</li>
     })
 

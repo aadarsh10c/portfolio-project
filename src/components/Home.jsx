@@ -7,7 +7,7 @@ export default function Home(){
         <div name="Home"
             className="bg-blue-100 w-full h-screen
                         flex flex-col items-center justify-center
-                        px-4 md:flex-row-reverse md:justify-around">
+                        px-4 md:flex-row-reverse md:gap-8">
             <div className="w-6/12 md:w-2/12 mb-8 md:border-solid md:border-sky-500 md:border-4">
                 <img className='rounded-xl md:p-4' src={HeroImage} alt="my profile picture" />
             </div>
