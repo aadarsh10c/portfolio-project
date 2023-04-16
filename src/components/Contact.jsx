@@ -17,20 +17,20 @@ export default function Contact(){
                      type="text"
                      name='name'
                      placeholder="Enter your name"
-                     className="p-2 bg-transparent border-2 rounded-md bg-slate-300
+                     className="p-2  border-2 rounded-md bg-slate-300
                       focus:outline-none md:text-2xl" />
                      <input
                      type="text"
                      name='email'
                      placeholder="Enter your email"
-                     className="p-2 bg-transparent border-2 rounded-md bg-slate-300
+                     className="p-2  border-2 rounded-md bg-slate-300
                       focus:outline-none md:text-2xl" />
                      <textarea
                      type="text"
                      name='message'
                      row='20'
                      placeholder="Enter your message"
-                     className="h-40 p-2 bg-transparent border-2 rounded-md
+                     className="h-40 p-2 border-2 rounded-md
                       focus:outline-none bg-slate-300 md:text-2xl"></textarea>
                       <button className="bg-gradient-to-b from-cyan-500 to-blue-500 px-6 md:px-10 py-3 md:py-6 my-2 mx-auto flex items-center rounded-md hover:scale-110 duration-300 md:text-2xl">
                         Let's Talk 

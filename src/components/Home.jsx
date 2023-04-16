@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png"
 import {BsArrowRightCircle} from 'react-icons/bs'
+import { Link } from 'react-scroll'
 
 export default function Home(){
     return(
@@ -21,13 +22,17 @@ export default function Home(){
                     Currently, I love to work on web applications using technologies like 
                     React , Tailwind, and Graph QL  
                 </p>
+                <Link to='Projects' smooth duration={500}>
                 <button className="group text-2xl md:text-4xl w-fit flex items-center justify-between gap-1 px-6 py-3
                                     bg-gradient-to-r from-cyan-500 to-blue-500 rounded-md text-white my-0 mx-auto sm:m-0">
                     Portfolio
-                    <span className=" group-hover:rotate-90 ml-3 duration-300">
-                        <BsArrowRightCircle />
-                    </span>
+                    
+                        <span className=" group-hover:rotate-90 ml-3 duration-300">
+                            <BsArrowRightCircle />
+                        </span>
                 </button>
+                </Link>
+
             </div>
         </div>
     )

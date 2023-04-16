@@ -64,11 +64,11 @@ export default function Portfolio(){
         },
     ]
     return(
-     <div className="bg-blue-100 w-full h-fit py-20 px-4 ">
+     <div name='Projects' className="bg-blue-100 w-full h-fit py-20 px-4 ">
         <h1 className="text-5xl  border-b-2 leading-8 underline decoration-green-500 underline-offset-4 w-[71%] mb-8 mx-auto">
             PROJECTS
         </h1>
-        <ul name='PROJECTS'
+        <ul 
             className="flex flex-col  items-end  justify-around gap-8 
                         md:grid md:grid-cols-3 md:grid-rows-2 md:w-[71%] md:mx-auto">
             {
